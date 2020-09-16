@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+Everything seemed right and the constant was working. But then I realized, the js code was running before the html page was loaded, so there was no value for header. Therefore I needed to add a event listener for the DOM Content to be Loaded before running the js code.
 ```
 
 ## Deliverable 2
@@ -35,7 +35,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+I started by making it complicated and creating a function. But it was ensuring that I had access to the header constant, then changing the style.color to "red".
 ```
 
 ## Deliverable 3
@@ -57,7 +57,8 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+1. Locate the selector with id = player-container
+2. for of?
 ```
 
 ## Deliverable 4
